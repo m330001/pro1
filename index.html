@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JEONG YEONJIN, 정연진">
+    <meta name="descroption" content="1차 포트폴리오 웹페이지입니다.">
+    <meta name="keyword" content="정연진, 아카데미MBC">
+    <meta name="generator" content="VSB">
+    <title>1차 포트폴리오</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="int">
+        <div class="bar"></div>
+    </div>
+    <div class="btn_menu">
+        <span class="green_window">
+            <input type="text" id="text" class="input_text" name="search" placeholder="검색하세요" onkeydown="enterS()">
+        </span>
+        <input type="button" value="검색" class="sch_smit" onclick="myFun()">
+    </div>
+    <a href="javascript:;" class="w_btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+    <a href="javascript:;" class="side_btn"><i class="fa-solid fa-folder"></i></a>
+    <a href="#header" class="side_house"><i class="fa-solid fa-house"></i></a>
+    <div id="side_menu">
+        <span><img src="./img/header/logo/logomin.png" alt=""></span>
+        <ul>
+            <!-- <li><a href="#header">CAMPING FOX IS</a></li> -->
+            <li><i class="fa-solid fa-tents"></i><a href="#contents2">BEST TENT</a></li>
+            <li><i class="fa-brands fa-product-hunt"></i><a href="#contents3">EVENT PRODUCT</a></li>
+            <li><i class="fa-solid fa-shirt"></i><a href="#contents4">BEST OUTER</a></li>
+        </ul>
+        <a href="javascript:;" class="close"><i class="fa-regular fa-circle-xmark"></i></a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./img/header/logo/logo.png" alt="로고이미지">
+                     <!-- <img src="./img/header/logo/logo_1.png" alt=""> -->
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul class="clearfix">
+                    <li><a href="#">MAN</a>
+                        <ul class="sub">
+                            <li><a href="#">BEST</a></li>
+                            <li><a href="#">아우터</a></li>
+                            <li><a href="#">상의</a></li>
+                            <li><a href="#">하의</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">WOMEN</a>
+                        <ul class="sub">
+                            <li><a href="#">BEST</a></li>
+                            <li><a href="#">아우터</a></li>
+                            <li><a href="#">상의</a></li>
+                            <li><a href="#">하의</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ACC&SHOES</a>
+                        <ul class="sub">
+                            <li><a href="#">BEST</a></li>
+                            <li><a href="#">악세서리</a></li>
+                            <li><a href="#">슈즈</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">OUTDOOR LINE</a>
+                        <ul class="sub">
+                            <li><a href="#">아웃도어 라인</a></li>
+                            <li><a href="#">체어</a></li>
+                            <li><a href="#">테이블</a></li>
+                            <li><a href="#">코트</a></li>
+                            <li><a href="#">텐트</a></li>
+                            <li><a href="#">쉐이드</a></li>
+                            <li><a href="#">트레킹 폴</a></li>
+                            <li><a href="#">도그 코트</a></li>
+                            <li><a href="#">스토리지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">HDB LINE</a>
+                        <ul class="sub">
+                            <li><a href="#">홈 데코 비치 라인</a></li>
+                            <li><a href="#">체어</a></li>
+                            <li><a href="#">테이블</a></li>
+                            <li><a href="#">코트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">EVENT</a></li>
+                </ul>
+            </nav>
+            <article class="hea_btn">
+                <ul>
+                    <li><a href="#"><span>로그인</span></a></li>
+                    <li><a href="#"><span>회원가입</span></a></li>
+                    <li><a href="#"><span>장바구니</span></a></li>
+                    <li><a href="#"><span>고객센터</span></a></li>
+                </ul>
+            </article>
+        </header>
+        <section id="banner">
+            <div class="banner_1">
+                <div>
+                    <video src="./img/banner/bannervideo1.mp4" autoplay muted loop></video>
+                </div>
+                <div>
+                    <img src="./img/banner/banner3.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/banner/bannersub1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="contents" class="contentbody">
+            <article id="contents1">
+                <div class="container">
+                    <article class="cont1">
+                        <ul class="clearfix">
+                            <li class="L"><img src="./img/cont1/cont01.png" alt=""></li>
+                            <li class="R"><h2> "도시의 답답함을 내려놓고 자연의 숨결 속에서 진정한 쉼을 찾아 떠나라."</h2><br>
+                                <p>캠핑을 떠나면 자연 속 맑은 공기와 새소리가 마음을 편안하게 해줍니다.<br><br> 텐트를 치고 불을 피우며 차분한 시간 속에서 하루를 마무리할 때,<br><br> 일상의 걱정은 사라지고 오롯이 자연과 하나가 된 기분을 느낍니다.<br><br> 밤하늘에 가득한 별을 보며 잠들면 그 순간이 평화로움으로 가득 찹니다.
+                                </p></li>
+                        </ul>
+                    </article>
+                </div>
+            </article>
+            <article id="contents2">
+                <div class="container">
+                    <article class="cont2">
+                        <h2 class="conBEST">BEST TENT</h2>
+                        <div class="con2_bac">
+                            <div>
+                                <img src="./img/cont2/contents2/cont1bac.png" alt="텐트이미지1">
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont2bac.png" alt="텐트이미지2">
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont3bac.png" alt="텐트이미지3">
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont4bac.png" alt="텐트이미지4">
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont5bac.png" alt="텐트이미지5">
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont6bac.png" alt="">
+                            </div>
+                        </div>
+                        <div class="con2_menu">
+                            <div>
+                                <img src="./img/cont2/contents2/cont1.png" alt="텐트이미지1">
+                                <p>카마보코 텐트 솔로 TC - TAN <br>
+                                    699,000원
+                                </p>
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont2.png" alt="텐트이미지2">
+                                <p>노나돔 4.0 / 블랙 <br>
+                                    2,480,000원
+                                </p>
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont3.png" alt="텐트이미지3">
+                                <p>우트가르드 13.2 텐트 <br>
+                                    903,000원
+                                </p>
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont4.png" alt="텐트이미지4">
+                                <p>노나돔4.0 베드룸 / 블랙 <br>
+                                    1,100,000원
+                                </p>
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont5.png" alt="텐트이미지5">
+                                <p>오트라 2 PU 텐트 다크올리브 <br>
+                                    670,000원
+                                </p>
+                            </div>
+                            <div>
+                                <img src="./img/cont2/contents2/cont6.png" alt="텐트이미지6">
+                                <p>미트가르드 20 텐트 <br>
+                                    2,820,000원
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </section>
+        <article class="contentsbac">
+            <video class="bacvideo" src="./img/con2_3bac/bannervideo2.mp4" autoplay muted loop></video>
+        </article>
+        <section class="contentbody">
+            <article id="contents3">
+                <div class="container">
+                    <article class="cont3">
+                        <h2>EVENT PRODUCT</h2>
+                    <ul>
+                        <li class="cont3_1">
+                            <img src="./img/cont3/CONTENTS2.png" alt="">
+                        </li>
+                        <li class="cont3_2">
+                            <img src=".//img/cont3/contents2-1.png" alt="">
+                        </li>
+                    </ul>
+                    </article>
+                </div>
+            </article>
+            <article id="contents4">
+                    <div class="cont4">
+                        <h4>BEST OUTER</h4>
+                        <div class="cont4_menu">
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-1.png" alt="랜드 경량 다운 베스트">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-1bac.png" alt="랜드 경량 다운 베스트">
+                                    </span>
+                                </a>
+                                <p>랜드 경량 다운 베스트 Light Beige <br>
+                                    149,000</p>
+                            </div>
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-2.png" alt="캠플 스탠드넥 바람막이">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-2bac.png" alt="">
+                                    </span>
+                                </a>
+                                    <p>캠플 스탠드넥 바람막이 Dark Gray <br>
+                                        179,000</p>
+                            </div>
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-3.png" alt="">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-3bac.png" alt="">
+                                    </span>
+                                </a>
+                                    <p>랜드 경량 다운 자켓 Khaki Gray <br>
+                                        179,000</p>
+                            </div>
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-4.png" alt="랜드에어 스탠드넥 경량 다운 자켓">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-4bac.png" alt="">
+                                    </span>
+                                </a>
+                                    <p>랜드에어 스탠드넥 경량 다운 자켓 Fog Gray <br>
+                                        199,000</p>
+                            </div>
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-5.png" alt="여성 데님 자켓">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-5bac.png" alt="">
+                                    </span>
+                                </a>
+                                    <p>여성 데님 자켓 (Dusk Blue) <br>
+                                        239,000</p>
+                            </div>
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-6.png" alt="여성 퀼팅 베스트">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-6bac.png" alt="">
+                                    </span>
+                                </a>
+                                    <p>여성 퀼팅 베스트 (Black) <br>
+                                        199,000</p>
+                            </div>
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-7.png" alt="유니 알페임 퀼팅 후디 자켓">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-7bac.png" alt="">
+                                    </span>
+                                </a>
+                                    <p>유니 알페임 퀼팅 후디 자켓 (Oatmeal) <br>
+                                        259,000</p>
+                            </div>
+                            <div>
+                                <a href="#" class="li">
+                                    <img class="img" src="./img/cont4/cont3-8.png" alt="여성 크리스탈다운 경량점퍼 2">
+                                    <span class="span">
+                                        <img class="span_img" src="./img/cont4/cont3-8bac.png" alt="">
+                                    </span>
+                                </a>
+                                    <p>여성 크리스탈다운 경량점퍼 2 - 아몬드 (Black) <br>
+                                        199,000</p>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+            </div>
+        </section><!-- //contents -->
+        <footer id="footer">
+            <div class="container">
+                <footer class="footer">
+                    <div class="foot_left">
+                        <div class="foot_logo">
+                            <img src="./img/header/logo/logo.png" alt="로고이미지">
+                        </div>
+                        <div class="foot_menu">
+                            <ul>
+                                <li><a href="#">브랜드소개</a></li>
+                                <li><a href="#">개인정보취급방침</a></li>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">고객센터</a></li>
+                            </ul>
+                        </div>
+                        <div class="foot_info">
+                            <p>대표 : 정연진 주소 : 서울특별시 강서구 화곡로149 Emali : m33001@naver.com<br>
+                                A/S CENTER : 010 - 3306 - 8635 </p>
+                        </div>
+                    </div>
+                    <div class="foot_right">
+                        <h4>참고사이트</h4>
+                        <div class="foot_site">
+                            <ul>
+                                <li>
+                                    <a href="http://www.helinox.co.kr/" target="_blank">
+                                        <img src="./img/footer/helinox_logo.png" alt="헬리녹스">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.k-village.co.kr/nordisk" target="_blank">
+                                        <img src="./img/footer/nordisk_logo.png" alt="케이빌리지-노르디스크">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.koveashop.co.kr/" target="_blank">
+                                        <img src="./img/footer/kovea_logo.png" alt="코베아">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://snowpeakstore.co.kr/" target="_blank">
+                                        <img src="./img/footer/snowpeak_logo.png" alt="스노우피크">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://kr.dod.camp/" target="_blank">
+                                        <img src="./img/footer/dod_logo.png" alt="DOD코리아">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer><!-- //footer -->
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
+    <script>
+        const list=$("#banner>ul")
+        //const Blist=$("#contents>.cont4>.cont4_all")
+        // 사이드 메뉴 (팝업 + 이동)
+        $(".side_btn").click(function(){
+            $("#side_menu").fadeToggle()
+            $(this).toggleClass("on");
+            if($(".side_btn").hasClass("on")){
+                // .on 이 있을때 , 버튼을 한번 눌렀을때
+                $(".side_btn").find(">i").attr("class","fa-solid fa-folder-open")
+            }else{
+                $(".side_btn").find(">i").attr("class","fa-solid fa-folder")
+            }
+        })
+        $(".close").click(function(){
+            $("#side_menu").fadeOut()
+        })
+
+        $(".w_btn").click(function(){
+            $(".btn_menu").fadeToggle()
+        })
+
+        //검색창 
+        function enterS(){
+            if(event.keyCode== 13){
+                myFun()
+            }
+        }
+        function myFun(){
+            let x = document.getElementById("text").value;
+            console.log(x);
+            window.location.href="https://snowpeakstore.co.kr/goods/goods_search.php?keyword="+x;
+        }
+
+
+        // 컨텐츠 2부분
+        $('.con2_bac').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.con2_menu'
+        });
+            $('.con2_menu').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.con2_bac',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            centerPadding:"50px",
+            pauseOnHover: false,
+        });
+        
+        // 베너부분
+        $('.banner_1').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            // 스크롤 되는 이미지 갯수
+            autoplaySpeed: 4000,
+            // 마우스 올려져 있으면 안넘어감
+            autoplay: true,
+            arrows:false,
+            pauseOnHover: false,
+        });
+
+        // 컨텐츠4 부분
+        $('.cont4_menu').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows:false,
+            dots: true,
+        });
+
+
+
+        // 네비 부분
+         $(".nav>ul>li").mouseover(function(){
+            $(this).find(".sub").stop().slideDown(500);
+        });
+        $(".nav>ul>li").mouseout(function(){
+            $(this).find(".sub").stop().slideUp(500);
+        });
+    </script>
+</body>
+</html>
